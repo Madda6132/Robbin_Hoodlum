@@ -5,7 +5,7 @@ using Hood.AI;
 namespace Hood.Item {
     [RequireComponent(typeof(Rigidbody))]
     [RequireComponent(typeof(AudioSource))]
-    public abstract class AbstractThrowable : MonoBehaviour {
+    public abstract class AbstractThrowObject : MonoBehaviour {
 
         [SerializeField] float nPCAbstractStunTime = 1f;
         [SerializeField] protected AudioClip audioClip;
