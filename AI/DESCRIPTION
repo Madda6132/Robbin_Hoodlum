@@ -1,1 +1,12 @@
+AI
 
+AIManager
+  -Decides the states the AI is in such as Chase, patrol.
+  -Communicates with NPCStateBehavior on what state to be in and were to move.
+  
+NPCStateBehavior
+  -Manages the different stages such as movement, sounds.
+  -Communicates with NPCLocomotionBehavior about were to move
+  
+ NPCLocomotionBehavior
+  -Handles the AI's movement and movement animation
