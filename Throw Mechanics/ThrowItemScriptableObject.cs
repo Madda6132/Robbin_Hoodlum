@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Hood.Item {
     [CreateAssetMenu(fileName = "Throwable", menuName = "Items/Throw item", order = 0)]
-    public class ThrowablesScriptableObject : ItemScriptableObject {
+    public class ThrowItemScriptableObject : ItemScriptableObject {
 
         [SerializeField] AbstractThrowable throwItemPrefab;
         [Tooltip("The maximum throw force for this object")]
