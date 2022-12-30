@@ -4,3 +4,13 @@ AbstractThrowObject
   -Base class of the objects being thrown.
   -Handles the objects movement, life span, and the default function when colliding
 
+ItemScriptableObject
+  -Contains information about an item such as name, audio clip and icon.
+
+ThrowItemScriptableObject
+  -Inherits from ItemScriptableObject to add extra information used for Throw Objects
+  -When the players want to use this item it communicates with TrajectoryManager
+  
+ TrajectoryManager
+  -Showes the trajectory line for the player to aim
+  -Once the player releases the button for throwing objects TrajectoryManager creates the throw object and sets up its path
