@@ -10,6 +10,7 @@ namespace Hood.Item {
         [SerializeField] float nPCAbstractStunTime = 1f;
         [SerializeField] protected AudioClip audioClip;
         [SerializeField] AudioClip hitNPCAudioClip;
+        //The visible item that can be hidden
         [SerializeField] protected GameObject disableObject;
         //The sound range that alert any nearby guards
         [SerializeField] float alertRange = 5f;
