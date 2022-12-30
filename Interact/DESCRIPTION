@@ -1,3 +1,4 @@
-#Interact
+Interact
 
-Using a simple interface
+Using a simple interface for interaction with two methods such as GetDisplayText and Interact. This allows the player to interact with different GameObjects.
+The Interacter script allowes interaction with the GameObjects with the interface.
