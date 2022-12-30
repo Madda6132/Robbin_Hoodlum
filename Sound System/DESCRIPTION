@@ -1,1 +1,13 @@
+Sound system
 
+ScriptableObjectSoundList 
+  - Contains the audio clips of a category such as door, pickup, guard.
+  - The audio clips can be divided inside by group names
+
+StaticAudioManager
+  - Contains all the different ScriptableObjectSoundLists
+  - When SoundManager asks for a clip from a sound list this will check that list and send it back. If something went wrong send a error audio clip back
+ 
+ SoundManager
+  -This monobehavior keeps track of what sound list category it will look into
+  -Scripts can call on this one to play a spesfic clip or random clip
