@@ -1,3 +1,6 @@
 Throw Mechanics
 
+AbstractThrowable
+  -Base class of the objects being thrown.
+  -Handles the objects movement, life span, and the default function when colliding
 
