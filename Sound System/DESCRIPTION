@@ -10,4 +10,4 @@ StaticAudioManager
  
  SoundManager
   -This monobehavior keeps track of what sound list category it will look into
-  -Scripts can call on this one to play a spesfic clip or random clip
+  -Scripts can call on this one to play a specific clip or random clip
